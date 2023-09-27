@@ -22,7 +22,7 @@ docker pull nacos/nacos-server:0.9.0
 docker run --name nacos -d -p 8848:8848 -e MODE=standalonenacos/nacos-server:0.9.0
 ```
 
-* 访问Nacos UI 界面
+* 访问Nacos UI 界面，使用 Chrome 无痕模式打开，不然报用户密码错误
 [Nacos UI](http://localhost:8848/nacos)
 
 用户密码：nacos
